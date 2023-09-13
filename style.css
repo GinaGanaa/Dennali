@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(219, 219, 219, 0.658);
+}
+.container {
+  max-width: 950px;
+  width: 100%;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+
+/* --------------------------- header -------------------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  color: rgb(59, 59, 59);
+}
+.header-bg {
+  background-color: white;
+  border-bottom: solid rgb(206, 206, 206) 1px;
+}
+.header h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.menus {
+  display: flex;
+  gap: 15px;
+}
+/* ----------------------------------------- main ---------------------- */
+.main {
+  margin-top: 25px;
+  display: flex;
+  gap: 5%;
+}
+.left {
+  width: 20%;
+  text-align: center;
+  background-color: white;
+  padding: 18px 15px;
+  border: solid rgb(206, 206, 206) 1px;
+  border-radius: 5px;
+}
+.left img {
+  width: 70%;
+  border-radius: 50%;
+}
+.left p {
+  text-align: start;
+}
+.left hr {
+  margin: 15px 0px;
+  width: 50%;
+}
+.left_posts {
+  margin-bottom: 15px;
+}
+.left_post_text {
+  color: grey;
+}
+
+.right {
+  width: 75%;
+}
+.card {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  align-items: center;
+  border: solid rgb(206, 206, 206) 1px;
+  border-radius: 5px;
+}
+.card_img {
+  width: 30%;
+}
+
+.card_info h3 {
+  font-weight: 400;
+  color: rgb(53, 53, 53);
+}
+.card_date {
+  color: grey;
+  font-size: 10px;
+  margin: 5px 0;
+}
+.card_desc {
+  color: grey;
+  font-size: 13px;
+}
